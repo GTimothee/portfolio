@@ -10,6 +10,7 @@ function App() {
         <p>
           Welcome!
           The website is coming soon...
+          Development mode
         </p>
       </header>
     </div>
