@@ -8,8 +8,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome!
-          The website is coming soon...
+          Portfolio de Timothée Guédon.
+          Site web en construction...
         </p>
       </header>
     </div>
