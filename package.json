@@ -2,16 +2,17 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://GTimothee.github.io/portfolio/",
   "dependencies": {
-    "@babel/runtime": "^7.5.5",
-    "bootstrap": "^4.3.1",
-    "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.11",
-    "react-dom": "^16.8.6",
-    "react-router": "^5.0.1",
-    "react-router-dom": "^5.0.1",
+    "@babel/runtime": "^7.12.5",
+    "bootstrap": "^4.5.3",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.14.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.0.1",
-    "react-styleguidist": "^9.1.14"
+    "react-styleguidist": "^9.2.0"
   },
   "scripts": {
     "start": "HTTPS=true react-scripts start",
@@ -45,7 +46,7 @@
     "@storybook/addon-links": "^5.1.10",
     "@storybook/addons": "^5.1.10",
     "@storybook/react": "^5.1.10",
-    "gh-pages": "^2.1.0",
-    "typescript": "^3.5.3"
+    "gh-pages": "^2.2.0",
+    "typescript": "^3.9.7"
   }
 }

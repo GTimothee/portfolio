@@ -15,13 +15,12 @@ function App() {
       <Container id='app'>
         <Row id='header'>
           <Col>
-            <center>Portfolio</center>
             <NavBar />
           </Col>
         </Row>
 
         <Row id='body'>
-          <Route path="/Home" component={Home}/>
+          <Route path="/" component={Home}/>
           <Route path="/Projects" component={Projects} />
           <Route path="/Contact" component={Contact}/>
         </Row>
