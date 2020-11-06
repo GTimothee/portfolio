@@ -10,12 +10,16 @@ import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Badge from 'react-bootstrap/Badge';
 
 function App() {
   return (
-      <Container id='app'>
-        <Jumbotron fluid>
-          <h1>Timothée Guédon</h1>
+      <Container id='app' fluid>
+        <Jumbotron fluid style={{ marginBottom: "0" }}>
+          <center>
+            <h1>Timothée Guédon</h1>
+            <h2>Ingénieur deep learning</h2>
+          </center>
         </Jumbotron>
 
         <Row id='header'>
@@ -24,17 +28,21 @@ function App() {
           </Col>
         </Row>
 
-        <Row id='body'>
-          <Route path="/" component={Home}/>
-          <Route path="/Projects" component={Projects} />
-          <Route path="/Contact" component={Contact}/>
-        </Row>
+        <Container style={{ marginTop: "2%" }} id='body'>
+          <Row></Row>
+          <Row>
+            <Col></Col>
+            <Col xs={6}>
+              <Route path="/" component={Home}/>
+              <Route path="/Projects" component={Projects} />
+              <Route path="/Contact" component={Contact}/>
+            </Col>
+            <Col></Col>
+          </Row>
+          <Row></Row>
+        </Container>
+          
 
-        <Row id='footer'>
-          <Col>This is </Col>
-          <Col>2 of 3</Col>
-          <Col>3 of 3</Col>
-        </Row>
       </Container>
   );
 }

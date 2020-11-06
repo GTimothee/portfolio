@@ -1,29 +1,16 @@
 #app {
-  display: flex;
-  flex-direction: column
+display: flex;
+flex-direction: column
 }
 
 #header {
-  color: white;
-  flex-grow: 1;
-  background-color: #282c34;
+flex-grow: 1;
 }
 
 #body {
-  flex-grow: 2;
+flex-grow: 2;
 }
 
 #footer {
-  color: white;
-  flex-grow: 1;
-  background-color: #282c34;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+flex-grow: 1;
 }
