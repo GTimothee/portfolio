@@ -7,12 +7,17 @@ import Contact from './../Contact/Contact.js'
 import { Route } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
       <Container id='app'>
+        <Jumbotron fluid>
+          <h1>Timothée Guédon</h1>
+        </Jumbotron>
+
         <Row id='header'>
           <Col>
             <NavBar />
